@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #250057;
+}
+.input-box
+{
+    background-color: #fff;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input-box input
+{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 10px 0;
+    color: #555;
+    font-size: 24px;
+}
+svg
+{
+    cursor: pointer;
+}
